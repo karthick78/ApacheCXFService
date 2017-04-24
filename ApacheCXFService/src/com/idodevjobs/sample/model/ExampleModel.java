@@ -3,6 +3,7 @@ package com.idodevjobs.sample.model;
 public class ExampleModel {
     private String string;
     private int anInt;
+    private int anInt1;
  
     public ExampleModel() {}
  
@@ -25,6 +26,14 @@ public class ExampleModel {
  
     public void setAnInt(int anInt) {
         this.anInt = anInt;
+    }
+    
+    public int getAnInt1() {
+        return anInt1;
+    }
+ 
+    public void setAnInt1(int anInt) {
+        this.anInt1 = anInt;
     }
  
     @Override

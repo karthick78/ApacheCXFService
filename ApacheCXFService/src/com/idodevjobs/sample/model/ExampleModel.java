@@ -29,7 +29,7 @@ public class ExampleModel {
  
     @Override
     public String toString() {
-        return "ExampleModel{" +
+        return "ExampleModel{***************" +
                 "string='" + string + '\'' +
                 ", anInt=" + anInt +
                 '}';

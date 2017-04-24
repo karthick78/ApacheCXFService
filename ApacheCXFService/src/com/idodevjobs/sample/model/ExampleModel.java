@@ -4,7 +4,8 @@ public class ExampleModel {
     private String string;
     private int anInt;
     private int anInt1;
- 
+    private String authorName;
+   
     public ExampleModel() {}
  
     public ExampleModel(String string, int anInt) {
@@ -22,6 +23,15 @@ public class ExampleModel {
  
     public int getAnInt() {
         return anInt;
+    }
+ 
+ 
+ public void setAuthorName(String string) {
+        this.authorName = string;
+    }
+ 
+    public String getAuthorName() {
+        return authorName;
     }
  
     public void setAnInt(int anInt) {
